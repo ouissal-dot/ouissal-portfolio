@@ -9,7 +9,7 @@
 
 html {
   scroll-behavior:smooth;
-  size: 1rem;
+ 
 }
 
 
@@ -69,6 +69,11 @@ li :hover{
 text-shadow: 0px 0px 4px whitesmoke;
 
 
+
+
+}
+.menu-toggle {
+  display: none;
 }
 
 .la{
@@ -80,33 +85,44 @@ text-shadow: 0px 0px 4px whitesmoke;
 
 
 
-@media ( max-width: 800px) {
+@media ( max-width: 768px) {
+  .menu-toggle {
+  display: block;
+  color: whitesmoke;
+  width: max-content;
+
+}
 
   header{
   
   display: flex;
-  justify-content:space-between ;
-  align-items: center;
-  flex-wrap: nowrap;
+  
+  
+  
   
 }
 
+ header ul.active {
+    display: flex;
+  }
+
 header ul 
 {
-  
-flex-wrap: nowrap;
+  display: none;
+
+
 
 }
 
 .logo{
   
  font-size: clamp(0.65rem, 3.2vw, 0.85rem);
-    white-space: nowrap;
+    
 
 }
 .la{
   font-size: clamp(0.65rem, 3.2vw, 0.85rem);
-    white-space: nowrap;
+    
 
 }
   
