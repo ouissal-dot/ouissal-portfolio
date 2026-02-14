@@ -9,6 +9,7 @@
 
 html {
   scroll-behavior:smooth;
+  size: 1rem;
 }
 
 
@@ -73,7 +74,7 @@ text-shadow: 0px 0px 4px whitesmoke;
 .la{
   color: whitesmoke;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 
 }
 
