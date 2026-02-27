@@ -5,3 +5,6 @@ Features ✨
 Responsive design 📱
 HTML/CSS only 🖥️
 Leave a message (coming soon!) 💬
+
+🚧 Project Status
+Currently under development.
