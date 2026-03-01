@@ -5,15 +5,18 @@
    <meta charset="UTF-8">
 <meta name="description" content="ouissal attaaricha portfolio ">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
 <meta name="keywords" content="HTML, CSS, JavaScript">
 <meta name="author" content="ouissal attaaricha">
 <link rel="stylesheet" href="portfolio.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap" rel="stylesheet">
-
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("-OBI-rOaYSC80PVSn");
+        })();
+    </script>
   <title>Ouissal Attaaricha Portfolio</title>
   <link rel="icon" type="image/png" href="cat2.png">
   
@@ -68,13 +71,17 @@ When I’m not exploring new tech tools, you’ll probably find me playing games
   <a href="https://github.com/ouissal-dot" target="_blank">
     <img src="images/github.svg" alt="github">
   </a>
-  <a href="https://www.instagram.com/ouissal_attaaricha?igsh=MWRycW1tdTM5bXRsMg%3D%3D&utm_source=qr" target="_blank">
+  <a href="https://www.instagram.com/ouissal_attaaricha?igsh=MWRycW1tdTM5bXRsMg%3D%3D&utm_source=qr" target="_blank" >
     <img src="images/instagram.png" alt="instagram">
   </a>
   <a href="https://www.facebook.com/profile.php?id=100092421134542" target="_blank">
     <img src="images/facebook.png" alt="facebook">
   </a>
+  <a>
+    <img src="images/RESUME.png" alt="resume">
+  </a>
 </nav>
+
 
 
 
@@ -121,13 +128,7 @@ When I’m not exploring new tech tools, you’ll probably find me playing games
       <p class="cert"> PYTHON Certification</p>
     </a></article>
 
-    <article class="certif"> <a href="https://simpli-web.app.link/e/uU8ECb6AoZb" target="_blank">
-      <img src="images/digital.jpg" alt="digital">
-      
-      <h3>simplilearn</h3>
-      <p class="cert">Digital Marketing Strategy</p>
-      
-    </a> </article>
+
     <article class="certif"><a href="https://skillshop.credential.net/0b8f7036-bff9-4fa8-8fa3-43c928e8f0ff#acc.aDN6yBVw" target="_blank">
        <img src="images/AI.jpg" alt="AI">
       <h3>skillshop</h3>
@@ -147,6 +148,13 @@ When I’m not exploring new tech tools, you’ll probably find me playing games
       <p class="cert">Get started using Google Analytics</p>
       
     </a></article>
+        <article class="certif"> <a href="https://simpli-web.app.link/e/uU8ECb6AoZb" target="_blank">
+      <img src="images/digital.jpg" alt="digital">
+      
+      <h3>simplilearn</h3>
+      <p class="cert">Digital Marketing Strategy</p>
+      
+    </a> </article>
    
   </div>
 
@@ -197,44 +205,31 @@ When I’m not exploring new tech tools, you’ll probably find me playing games
 </section>
 <section id="contactsection">
 
-
-  
-
 <div class="contact">
 
    <h1 class="textcontact">let's be in touch</h1>
    <div class="contactetype">
 
 <div class="contacte1"><a href="tel:+212666426215" target="_blank">
-  <!-- <span class="num">tel:+212666426215</span> -->
-  
-    
 
     <img src="images/1.png" alt="photoicon">
-
-    
     
   </a>
 </div>
-
-
-  
 
   <div class="contacte2">
     <a href="mailto:ouissal.attaaricha@gmail.com" target="_blank">
-      <!-- <span class="email">ouissal.attaaricha@gmail.com</span> -->
+      
       
     <img src="images/2.png" alt="photoicon">
     
-    
+  
   </a>
 </div>
 
-
   <div class="contacte3">
     <a href="https://www.linkedin.com/in/ouissal-attaaricha-651196255/" target="_blank"> 
-      <!-- <span class="account">ouissal-attaaricha</span> -->
-    
+      
       <img src="images/3.png" alt="photoicon">
 
     
@@ -242,11 +237,34 @@ When I’m not exploring new tech tools, you’ll probably find me playing games
     
   </div>
 
-
    </div>
      
- 
+
 </div>
+
+<div class="formcontact">
+  <form id="contact form">
+
+
+
+
+<input type="email" name="user" id="user" placeholder="your email">
+
+
+
+<textarea name="message" id="message" placeholder="your message"></textarea>
+
+<button type="submit" id="send">Send Email</button>
+
+
+</form>
+</div>
+
+
+
+
+
+
 
 </section>
 

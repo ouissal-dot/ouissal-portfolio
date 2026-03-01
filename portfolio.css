@@ -100,13 +100,14 @@ text-shadow: 0px 0px 4px whitesmoke;
   header ul {
     display: none;
     position: absolute;
-    top: 50px;
+    top: 40px;
     left: 0 ;
     background-color: rgb(4, 4, 4);
     color: black;
     flex-direction: column;
     padding: 20px;
-    height: auto;
+    height: 300px;
+
   }
 
   header ul.active {
@@ -149,8 +150,25 @@ background-color: rgb(0, 0, 0);
 .media img{
  
   width: 3rem;
+  border-radius: 50%;
   
 }
+
+.media img:hover{
+ 
+transform: scale(1.15);
+  
+}
+
+article:hover{
+ 
+transform: scale(1.05);
+  
+}
+
+
+
+
 
 .photo img {
  width: 225px;
@@ -282,7 +300,9 @@ padding-top: 20px;
 
 }
 
-.contacte1, .contacte2, .contacte3 {
+.contacte1,
+.contacte2,
+.contacte3 {
 border-radius: 10px;
 box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 background-color: whitesmoke;
@@ -298,6 +318,11 @@ background-color: rgba(255, 255, 255, 0.237);
 
 }
 
+.contacte1:hover, 
+.contacte2:hover, 
+.contacte3:hover {
+  transform: scale(1.15);
+}
 
 
 
@@ -338,29 +363,7 @@ background-color: rgba(255, 255, 255, 0.237);
   width: 3rem;
   
 }
-/* .contacte1:hover .num{
- 
-  visibility: visible;
 
-}
-
-
-.num{
- 
-  visibility: hidden;
-  border-radius: 6px;
-  background-color: black;
-  color: whitesmoke;
-  text-align: center;
-}
-.contacte1 {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-  cursor: pointer;  
-}
-
- */
 
 .foter{
  
@@ -399,6 +402,56 @@ background-color: rgba(255, 255, 255, 0.237);
 }
 
 
+input[type="email"],
+textarea {
+  width: 100%;
+  border: 1.5px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box; 
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+ margin: 15px;
+}
+.formcontact{
+ 
+align-items: center;
+justify-content: center;
+  
+}
+
+button {
+  width: fit-content;
+  padding: 6px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  transform: scale(1.15);
+}
+
+#contactsection {
+  display: flex;            /* Turns the section into a flex container */
+  justify-content: center;  /* Centers the boxes horizontally */
+  align-items: flex-start;  /* Aligns them to the top */
+  gap: 50px;                /* Adds space between the two boxes */
+  flex-wrap: wrap;          /* Important: allows them to stack on mobile */
+}
+
+.contact, .formcontact {
+  flex: 1;                  /* Makes both boxes take up equal width */
+  min-width: 300px;         /* Prevents them from getting too skinny */
+  max-width: 500px;         /* Limits how wide they can get */
+ 
+  border-radius: 15px;      /* Optional: rounds the box corners */
+  
+}
 
 
 
