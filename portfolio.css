@@ -437,19 +437,19 @@ button:hover {
 }
 
 #contactsection {
-  display: flex;            /* Turns the section into a flex container */
-  justify-content: center;  /* Centers the boxes horizontally */
-  align-items: flex-start;  /* Aligns them to the top */
-  gap: 50px;                /* Adds space between the two boxes */
-  flex-wrap: wrap;          /* Important: allows them to stack on mobile */
+  display: flex;            
+  justify-content: center;  
+  align-items: flex-start;  
+  gap: 50px;                
+  flex-wrap: wrap;          
 }
 
 .contact, .formcontact {
-  flex: 1;                  /* Makes both boxes take up equal width */
-  min-width: 300px;         /* Prevents them from getting too skinny */
-  max-width: 500px;         /* Limits how wide they can get */
+  flex: 1;                  
+  min-width: 300px;         
+  max-width: 500px;        
  
-  border-radius: 15px;      /* Optional: rounds the box corners */
+  border-radius: 15px;      
   
 }
 
@@ -459,7 +459,11 @@ button:hover {
 
 
 
-
+@media screen and (max-width: 768px) {
+  .formcontact {
+    display: none !important;
+  }
+}
 
 
 @keyframes GLOWWW {
