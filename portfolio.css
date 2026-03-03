@@ -171,14 +171,15 @@ transform: scale(1.05);
 
 
 .photo img {
- width: 225px;
+ width: 300px;
  border-radius: 50%;
  background-color: rgb(0, 0, 0);
+ box-shadow: 0 0 15px 0px rgb(29, 29, 29);
   
 }
 
 .photo img:hover {
-  box-shadow: 0 0 2px 1px rgb(255, 255, 255);
+  
 }
 
 
@@ -269,6 +270,8 @@ text-align: center;
 
 }
 
+
+
 #Skillssection {
     padding: 4rem  ;  
     margin: 0 auto;     
@@ -287,7 +290,11 @@ grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
 align-items: center;
 padding-top: 4rem;
 }
+.comment{
+position: relative;
+top: 20px;
 
+}
 
 
 .contactetype{
