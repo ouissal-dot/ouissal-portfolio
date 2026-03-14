@@ -122,6 +122,14 @@ text-shadow: 0px 0px 4px whitesmoke;
     font-size: clamp(0.65rem, 3.2vw, 0.85rem);
   }
 
+
+  #Skillssection {
+    min-height: 105vh;
+    
+  }
+  
+
+
 }
 
 #aboutsection {
