@@ -29,11 +29,13 @@
 
  <a href="#aboutsection"><h1 class="logo"> Ouissal Attaaricha </h1></a>
 <ul>
-   <li>   <a href="#aboutsection" class="la">  About </a></li>  
-   <li><a href="#certificationsection"class="la" >  Certification</a></li>   
-    <li> <a href="#projectsection"  class="la"> Project </a></li>  
-   <li><a href="#Skillssection"  class="la"> Skills </a> </li>  
-  <li><a href="#contactsection"  class="la">  Contact </a> </li>  
+   <li>   <a href="#aboutsection" class="la" data-translate="about">  About </a></li>  
+   <li><a href="#certificationsection"class="la" data-translate="certif-title" >  Certification</a></li>   
+    <li> <a href="#projectsection"  class="la" data-translate="proj-title"> Project </a></li>  
+   <li><a href="#Skillssection"  class="la" data-translate="skills-title"> Skills </a> </li>  
+  <li><a href="#contactsection"  class="la" data-translate="contact">  Contact </a> </li>  
+  <li><button id="lang-toggle" onclick="toggleLanguage()"><img src="images/germany.png" >DE</button></li>
+
 </ul>
 
 
@@ -49,13 +51,13 @@
   <div class="about">
     <div class="about-inner">
 
-<h2 class="me"> Hey World, I'm Ouissal </h2>
+<h2 class="me" data-translate="about-title"> Hey World, I'm Ouissal </h2>
 <div class="photo">
 
   <img src="images/II.jpeg" alt="photo">
 
 </div>
-<p class="text">
+<p class="text" data-translate="about-text">
 
 Hey there! I’m Ouissal — a mix of creativity and good vibes!
 <br>
@@ -74,8 +76,8 @@ When I’m not exploring new tech tools, you’ll probably find me playing games
   <a href="https://www.instagram.com/ouissal_attaaricha?igsh=MWRycW1tdTM5bXRsMg%3D%3D&utm_source=qr" target="_blank" >
     <img src="images/instagram.png" alt="instagram">
   </a>
-  <a href="https://www.facebook.com/profile.php?id=100092421134542" target="_blank">
-    <img src="images/facebook.png" alt="facebook">
+  <a href="https://medium.com/@ouissal.attaaricha" target="_blank">
+    <img src="images/MED.png" alt="medium">
   </a>
   <a>
     <img src="images/RESUME.png" alt="resume">
@@ -103,7 +105,7 @@ When I’m not exploring new tech tools, you’ll probably find me playing games
   <div class="sectioncertification">
 
 
-    <h2 class="title">certification</h2>
+    <h2 class="title" data-translate="certif-title">certification</h2>
   <div class="certification">
 
      <article class="certif"><a href="https://verify.w3schools.com/69FBR3ABW" target="_blank">
@@ -117,8 +119,8 @@ When I’m not exploring new tech tools, you’ll probably find me playing games
       <h3>w3schools</h3>
       <p class="cert">CSS Certification</p>
     </a></article>
-    <article class="certif"><a href="">
-      
+    <article class="certif"><a href="https://verify.w3schools.com/1QYGO7B5DA">
+      <img src="images/JAVA.jpg" alt="JAVA">
       <h3>w3schools</h3>
       <p class="cert"> JavaScript Certification</p>
     </a></article>
@@ -164,26 +166,147 @@ When I’m not exploring new tech tools, you’ll probably find me playing games
   
 
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <section id="projectsection">
+
+  <h2 class="title" data-translate="proj-title">project</h2>
+
   
-<h2 class="title">project</h2>
+  <div class="project-row">
+    <h3 class="project-row-label" data-translate="proj-software">Software</h3>
+    <div class="projectlist">
 
-<div class="projectlist">
+      <article class="proj-card">
+        <div class="proj-thumb">
+          <img src="images/Desktop.png" alt="Project 1">
+        </div>
+        <div class="proj-body">
+          <h4 class="proj-title">Focus Hub</h4>
+          <p class="proj-subtitle">HTML + CSS / JavaScript</p>
+          <p class="proj-desc" data-translate="desc-focus">Focus Hub is an all-in-one productivity dashboard that combines essential tools like a to-do list, timer, calculator, and utilities in one place to help users stay organized and focused</p>
+          <div class="proj-links">
+            <a href="https://github.com/ouissal-dot/FOCUS-HUB" target="_blank" class="proj-link">GitHub ↗</a>
+            <a href="https://focus-hub-pearl.vercel.app/" target="_blank" class="proj-link">Live ↗</a>
+          </div>
+        </div>
+      </article>
 
-  <article></article>
-  <article></article>
-  <article></article>
-  <article></article>
+      <article class="proj-card">
+        <div class="proj-thumb">
+          <img src="images/WORT.PNG" alt="Project 2">
+        </div>
+        <div class="proj-body">
+          <h4 class="proj-title">WortMind</h4>
+          <p class="proj-subtitle">Python / Streamlit </p>
+          <p class="proj-desc" data-translate="desc-wort">WortMind is a flashcard-based learning app that helps users easily memorize German vocabulary with Arabic translations through interactive cards.</p>
+          <div class="proj-links">
+            <a href="https://github.com/ouissal-dot/wortmind" target="_blank" class="proj-link">GitHub ↗</a>
+            <a href=" https://wortmind-evu4aw4nknppht39m36rdr.streamlit.app/" target="_blank" class="proj-link">Live ↗</a>
+          </div>
+        </div>
+      </article>
 
+      <article class="proj-card">
+        <div class="proj-thumb">
+          <img src="images/project-software-3.png" alt="Project 3">
+        </div>
+        <div class="proj-body">
+          <h4 class="proj-title">Project Title</h4>
+          <p class="proj-subtitle">Tech / Tool</p>
+          <p class="proj-desc">Short description of what this project does and the problem it solves for users.</p>
+          <div class="proj-links">
+            <a href="#" target="_blank" class="proj-link">GitHub ↗</a>
+            <a href="#" target="_blank" class="proj-link">Live ↗</a>
+          </div>
+        </div>
+      </article>
 
-</div>
+      <article class="proj-card">
+        <div class="proj-thumb">
+          <img src="images/project-software-4.png" alt="Project 4">
+        </div>
+        <div class="proj-body">
+          <h4 class="proj-title">Project Title</h4>
+          <p class="proj-subtitle">Tech / Tool</p>
+          <p class="proj-desc">Short description of what this project does and the problem it solves for users.</p>
+          <div class="proj-links">
+            <a href="#" target="_blank" class="proj-link">GitHub ↗</a>
+            <a href="#" target="_blank" class="proj-link">Live ↗</a>
+          </div>
+        </div>
+      </article>
+
+      
+
+    </div>
+  </div>
+
+ 
+  <div class="project-row">
+    <h3 class="project-row-label" data-translate="proj-design">Design</h3>
+    <div class="projectlist">
+
+      <article class="proj-card">
+        <div class="proj-thumb">
+          <img src="images/project-design-1.png" alt="Design 1">
+        </div>
+        <div class="proj-body">
+          <h4 class="proj-title">Project Title</h4>
+          <p class="proj-subtitle">Figma / Canva</p>
+          <p class="proj-desc">Short description of this design project and the goals it achieved.</p>
+          <div class="proj-links">
+            <a href="#" target="_blank" class="proj-link">View ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="proj-card">
+        <div class="proj-thumb">
+          <img src="images/project-design-2.png" alt="Design 2">
+        </div>
+        <div class="proj-body">
+          <h4 class="proj-title">Project Title</h4>
+          <p class="proj-subtitle">Figma / Canva</p>
+          <p class="proj-desc">Short description of this design project and the goals it achieved.</p>
+          <div class="proj-links">
+            <a href="#" target="_blank" class="proj-link">View ↗</a>
+          </div>
+        </div>
+      </article>
+
+      
+
+      
+
+    </div>
+  </div>
+
+</section>
+
   
 
 
 <section id="Skillssection">
 
-  <h2 class="title">Skills</h2>
-  <p class="comment">Familiar with</p>
+  <h2 class="title" data-translate="skills-title">Skills</h2>
+  <p class="comment" data-translate="skills-comment">Familiar with</p>
 
   <div class="icons">
     <div class="skill-card">
@@ -245,7 +368,7 @@ When I’m not exploring new tech tools, you’ll probably find me playing games
 
 <div class="contact">
 
-   <h1 class="textcontact">let's be in touch</h1>
+   <h1 class="textcontact" data-translate="contact-title" >let's be in touch</h1>
    <div class="contactetype">
 
 <div class="contacte1"><a href="tel:+212666426215" target="_blank">
