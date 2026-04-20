@@ -4,7 +4,7 @@ Welcome to my personal portfolio website!
 This project showcases my skills, projects, and experience as a beginner web developer.
 
 ## 🚀 Live Preview
-[*(Add your live website link here if you deploy it)*](https://ouissal-portfolio-n9xv.vercel.app/)
+[*(https://ouissal-portfolio-n9xv.vercel.app/)*](https://ouissal-portfolio-n9xv.vercel.app/)
 
 ---
 
