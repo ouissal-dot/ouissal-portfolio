@@ -44,12 +44,9 @@ const translations = {
         "proj-software": "Software",
         "proj-design": "Design",
         "desc-focus": "Focus Hub is an all-in-one productivity dashboard that combines essential tools like a to-do list, timer, calculator, and utilities in one place to help users stay organized and focused",
-<<<<<<< HEAD
-=======
         "desc-job": "ines essezed and focused",
         
         "desc-wort": "WortMind is a flashcard-based learning app that helps users easily memorize German vocabulary with Arabic translations through interactive cards.",
->>>>>>> d8b6df5 (potfilio update)
         "desc-wort": "WortMind is a flashcard-based learning app that helps users easily memorize German vocabulary with Arabic translations through interactive cards.",
         "skills-title": "Skills",
         "skills-comment": "Familiar with",
@@ -64,10 +61,7 @@ const translations = {
         "proj-title": "Projekte",
         "proj-software": "Software",
         "proj-design": "Design",
-<<<<<<< HEAD
-=======
         "desc-job": "JobMatch AI ist eine einfache, intelligente App zur Jobempfehlung, die Nutzern dabei hilft, Stellen basierend auf ihren Fähigkeiten und ihrem Erfahrungslevel zu finden.",
->>>>>>> d8b6df5 (potfilio update)
         "desc-focus": "Focus Hub ist ein All-in-One-Produktivitäts-Dashboard, das wichtige Tools wie eine Aufgabenliste, einen Timer, einen Taschenrechner und Dienstprogramme kombiniert, damit Benutzer organisiert und fokussiert bleiben.",
         "desc-wort": "WortMind ist eine auf Karteikarten basierende Lern-App, mit der Benutzer dank interaktiver Karten leicht deutsches Vokabular mit arabischen Übersetzungen auswendig lernen können.",
         "skills-title": "Fähigkeiten",
