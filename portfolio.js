@@ -8,11 +8,14 @@ const navLinks = document.querySelector("header ul");
 menuToggle.addEventListener("click", () => {
     navLinks.classList.toggle("active");
 });
+<<<<<<< HEAD
 document.querySelectorAll('header ul a').forEach(link => {
     link.addEventListener('click', () => {
         navLinks.classList.remove('active');
     });
 });
+=======
+>>>>>>> d8b6df5 (potfilio update)
 
 
 function toggleLanguage() {
