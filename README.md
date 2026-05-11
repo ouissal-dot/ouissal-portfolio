@@ -3,6 +3,8 @@
 Welcome to my personal portfolio website!  
 This project showcases my skills, projects, and experience as a beginner web developer.
 
+[![CodeQL Advanced](https://github.com/ouissal-dot/ouissal-portfolio/actions/workflows/codeql.yml/badge.svg)](https://github.com/ouissal-dot/ouissal-portfolio/actions/workflows/codeql.yml)
+
 ## 🚀 Live Preview
 [*(https://ouissal-portfolio-n9xv.vercel.app/)*](https://ouissal-portfolio-n9xv.vercel.app/)
 
