@@ -1,0 +1,14 @@
+name: Lighthouse Performance Check
+on: [push]
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Audit live URL
+        uses: treosh/lighthouse-ci-action@v12
+        with:
+          urls: 'https://ouissal-portfolio-n9xv.vercel.app/'
+          uploadArtifacts: true 
+          temporaryPublicStorage: true  
