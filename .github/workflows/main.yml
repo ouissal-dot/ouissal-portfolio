@@ -1,0 +1,11 @@
+name: Portfolio CI
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check HTML Files
+        run: |
+          find . -name "*.html" -exec tidy -e {} \;
