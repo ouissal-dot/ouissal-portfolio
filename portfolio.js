@@ -8,14 +8,11 @@ const navLinks = document.querySelector("header ul");
 menuToggle.addEventListener("click", () => {
     navLinks.classList.toggle("active");
 });
-<<<<<<< HEAD
 document.querySelectorAll('header ul a').forEach(link => {
     link.addEventListener('click', () => {
         navLinks.classList.remove('active');
     });
 });
-=======
->>>>>>> d8b6df5 (potfilio update)
 
 
 function toggleLanguage() {
@@ -58,7 +55,8 @@ const translations = {
         "desc-wort": "WortMind is a flashcard-based learning app that helps users easily memorize German vocabulary with Arabic translations through interactive cards.",
         "skills-title": "Skills",
         "skills-comment": "Familiar with",
-        "contact-title": "let's be in touch"
+        "contact-title": "let's be in touch",
+        "design": "This Figma prototype presents a mobile-first redesign of JobMatch AI"
     },
     "de": {
         "about": "Über mich",
@@ -74,7 +72,8 @@ const translations = {
         "desc-wort": "WortMind ist eine auf Karteikarten basierende Lern-App, mit der Benutzer dank interaktiver Karten leicht deutsches Vokabular mit arabischen Übersetzungen auswendig lernen können.",
         "skills-title": "Fähigkeiten",
         "skills-comment": "Vertraut mit",
-        "contact-title": "Lass uns in Kontakt bleiben"
+        "contact-title": "Lass uns in Kontakt bleiben",
+        "design": "Dieser Figma-Prototyp präsentiert eine mobile-first Neugestaltung von JobMatch AI"
     }
 };
 

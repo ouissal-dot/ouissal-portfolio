@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🌐 Personal Portfolio Website
 
 Welcome to my personal portfolio website!  
@@ -69,15 +68,3 @@ More features and improvements will be added soon, including:
 ## ⭐ Support
 
 If you like this project, feel free to **star ⭐ the repository** and share your feedback!
-=======
-My Portfolio Website!
-This is my beginner portfolio website built in HTML & CSS only.
-
-Features ✨
-Responsive design 📱
-HTML/CSS only 🖥️
-Leave a message (coming soon!) 💬
-
-🚧 Project Status
-Currently under development.
->>>>>>> d8b6df5 (potfilio update)
