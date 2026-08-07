@@ -56,7 +56,8 @@ const translations = {
         "skills-title": "Skills",
         "skills-comment": "Familiar with",
         "contact-title": "let's be in touch",
-        "design": "This Figma prototype presents a mobile-first redesign of JobMatch AI"
+        "design": "This Figma prototype presents a mobile-first redesign of JobMatch AI",
+        "desc-Tasks":"A modern, responsive full-stack task management application with interactive calendar views, dark theme UI, and a Python FastAPI REST API."
     },
     "de": {
         "about": "Über mich",
@@ -73,8 +74,10 @@ const translations = {
         "skills-title": "Fähigkeiten",
         "skills-comment": "Vertraut mit",
         "contact-title": "Lass uns in Kontakt bleiben",
-        "design": "Dieser Figma-Prototyp präsentiert eine mobile-first Neugestaltung von JobMatch AI"
-    }
+        "design": "Dieser Figma-Prototyp präsentiert eine mobile-first Neugestaltung von JobMatch AI",
+        "desc-Tasks":"Eine moderne, responsive Full-Stack-Aufgabenverwaltungsanwendung mit interaktiven Kalenderansichten, dunkler Benutzeroberfläche und einer Python FastAPI REST-API."
+    },
+    
 };
 
 
