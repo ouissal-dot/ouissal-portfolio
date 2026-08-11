@@ -52,7 +52,7 @@ const translations = {
         "desc-job": "JobMatch AI is a simple intelligent job recommendation app that helps users find jobs based on their skills and experience level.",
         
         "desc-wort": "WortMind is a flashcard-based learning app that helps users easily memorize German vocabulary with Arabic translations through interactive cards.",
-       
+       "skills-title": "skills",
         "skills-comment": "Familiar with",
         "contact-title": "let's be in touch",
         "design": "This Figma prototype presents a mobile-first redesign of JobMatch AI",
