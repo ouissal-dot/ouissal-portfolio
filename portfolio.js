@@ -50,7 +50,6 @@ const translations = {
         "proj-design": "Design",
         "desc-focus": "Focus Hub is an all-in-one productivity dashboard that combines essential tools like a to-do list, timer, calculator, and utilities in one place to help users stay organized and focused",
         "desc-job": "JobMatch AI is a simple intelligent job recommendation app that helps users find jobs based on their skills and experience level.",
-        
         "desc-wort": "WortMind is a flashcard-based learning app that helps users easily memorize German vocabulary with Arabic translations through interactive cards.",
        "skills-title": "skills",
         "skills-comment": "Familiar with",
